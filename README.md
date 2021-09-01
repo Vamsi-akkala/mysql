@@ -22,11 +22,11 @@ Start MySQL Container and also should be accessible over network
 Download the schema and load it 
 
 ```
-# curl -s -L -o /tmp/mysql.zip https://github.com/zelar-soft-roboshop/mysql/archive/refs/heads/main.zip
+# curl -s -L -o /tmp/mysql.zip https://github.com/Vamsi-akkala/mysql/archive/refs/heads/main.zip
 # cd /tmp 
 # unzip /tmp/mysql.zip
 # cd mysql-main
-# mysql -h <IP-ADDRESS> -uroot -ppassword <shipping.sql
+# mysql -h <IP-ADDRESS> -uroot -ppassword <employee.sql
 ```
 
 
